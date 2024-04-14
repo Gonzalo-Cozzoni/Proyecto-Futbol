@@ -1,4 +1,35 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+      
+}
+header{
+    background-color: rgb(18, 88, 18);
+    height: 60px;
+    position: fixed;
+    padding: 0 50px;
+    width: 100%;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+#nav-header{
+    padding-top: 17px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    background-color: grey;
+}
+.contenedor-footer{
+    background-color: rgb(18, 88, 18);
+    height: 60px;  
+    width: 100%;   
 }

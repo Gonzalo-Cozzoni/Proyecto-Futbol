@@ -33,16 +33,54 @@ header{
 }
 
 #banner{
-    background-image: url(/img/wallpaper\ soccer\ field.jpg);
+    background-image: url(https://img.freepik.com/foto-gratis/vista-campo-futbol-cesped_23-2150887312.jpg?t=st=1713652549~exp=1713656149~hmac=b91a5849e9a5572f4ab6f5bacf76cf66023767401f716e5a6a14a17b1896945d&w=1060);
     background-size: cover;
     
     height: 700px;
+}
+
+#carrusel{
+    height: 700px;
+    align-content: center;
+    align-items: center;
+}
+
+#contenedor_carrusel{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;    
+}
+
+.item_carrusel{
+    height: 100%;
+    position: relative;
+}
+
+.flechitas{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#carrusel a{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 #titulo{
     text-align: center;
     font-weight: bolder;
     font-size: 80px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
+img{
+    width: 100%;
+    height: 100%;
+}

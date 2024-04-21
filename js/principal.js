@@ -3,7 +3,8 @@ document.write(`<header>
     <ul class="menu">
         <div>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="QuienesSomos.html">¿Quienes somos?</a></li>                    
+            <li><a href="QuienesSomos.html">¿Quienes somos?</a></li> 
+            <li><a href="#carrusel">Conocenos</a></li>                   
         </div>
         <div>
             <li><a href="Registrate.html">Registrate</a></li>

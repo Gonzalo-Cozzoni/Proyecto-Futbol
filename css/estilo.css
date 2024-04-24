@@ -9,7 +9,7 @@
 
 header{
     background-color: rgba(88, 163, 88, 0.568);
-    height: 90px;
+    height: 100px;
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -89,21 +89,62 @@ header a{
     background-color: rgba(126, 117, 117, 0.753);
 }
 
-#quienes_somos{
-    background-color: rgb(214, 212, 212);
+.container{
+width: 100%;
+height: 100vh;
+max-width: 100%;
+background-image: url(/img/complejo\ two.png);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-#carouselExampleCaptions{
-    padding: 5% 20%;
-}
 
-.titulo-carrusel{
-    text-align: center;
+
+#nuestras_canchas .container h2{
     padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: rgb(34, 247, 34);
+
+}
+#nuestras_canchas .canchas{
+
+    margin-left: 15%;
+
+    width: 70%;
+    height: 60%;
+
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
-.carousel-control-prev-icon{
-    color: black;
+/* .cancha{
+
+    background-color:  rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cancha a {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 89);
+  } */
+  #nosotros{
+    background-image: url(/img/complejo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+footer{
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
 }
 
 

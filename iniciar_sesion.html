@@ -8,17 +8,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header>
-        
+        <nav>
+            <ul class="menu">
+                <div class="contenedor-izquierdo">
+                    <li><a href="#quienes_somos">Quienes Somos</a></li>
+                    <li><a href="#turnos"></a>Turnos</li>
+                </div>
+                <a class="logo" href="index.html"><img src="./img/logo1.png" alt=""></a>
+                <div class="contenedor-derecho">
+                    <li><a href="registrate.html">Registrate</a></li>
+                    <li><a href="iniciar_sesion.html">Iniciar Sesion</a></li>
+                </div>
+            </ul>
+        </nav>
     </header>
     
-    <main>
+    <main class="menu-login">
+        <div class="contenedor-login">
+            <i class="fa-solid fa-user icono"></i>
+            <h1>Iniciar Sesion</h1>
+            <form class="form">
+                <label for="usuario">Email</label>
+                <input type="text" name="usuario" id="usuario">
 
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña">
+
+                <input class="boton-aceptar" type="submit" value="Ingresa">
+            </form>
+        </div>
     </main>
     <footer>
 
     </footer>
+    <script src="https://kit.fontawesome.com/3e248bbdf2.js" crossorigin="anonymous"></script>
 </body>
 </html>

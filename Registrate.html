@@ -11,13 +11,47 @@
 </head>
 <body>
     <header>
-        
+        <nav>
+            <ul class="menu">
+                <div class="contenedor-izquierdo">
+                    <li><a href="#quienes_somos">Quienes Somos</a></li>
+                    <li><a href="#turnos"></a>Turnos</li>
+                </div>
+                <a class="logo" href="index.html"><img src="./img/logo1.png" alt=""></a>
+                <div class="contenedor-derecho">
+                    <li><a href="registrate.html">Registrate</a></li>
+                    <li><a href="iniciar_sesion.html">Iniciar Sesion</a></li>
+                </div>
+            </ul>
+        </nav>
     </header>
-    <main>
+    <main class="menu-registro">
+        
+        <div class="contenedor-registro">
+            
+            <h1 class="titulo-registro">Registro</h1>
+            <form class="form" action="">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+               
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+                
+                <label for="dni">DNI</label>
+                <input type="text" name="dni" id="dni">
+               
+                <label for="email">Email</label>
+                <input type="email" name="" id="">
+                
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña">
+               
+                <input class="boton-aceptar" type="submit" value="Aceptar">
+                
+            </form>       
+        </div>
 
     </main>
-    <footer>
-
-    </footer>
+    
 </body>
 </html>

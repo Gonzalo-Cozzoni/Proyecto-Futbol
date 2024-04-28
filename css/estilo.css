@@ -384,7 +384,7 @@ header{
 
     
     footer{
-        background-color:  rgba(0, 0, 0, 0.5);
+        background-color:  #075224cc;
         width: 100%;
     }
 
@@ -392,6 +392,26 @@ header{
         width: max-content;
     }
 
+    .contenedor-footer{
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .contenedor-footer h2{
+        font-family: sans-serif;
+        font-weight: normal;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .footer-link i{
+        font-size: 30px;
+        color: rgb(48, 47, 47);
+    }
  
 
 

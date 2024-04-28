@@ -384,10 +384,25 @@ header{
 
     
     footer{
-        background-color:  rgba(0, 0, 0, 0.5);
         width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0cac49;
+        background-image: linear-gradient(45deg, #0cac49 0%, #fcff7d 100%);
     }
 
+    #redes_sociales{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #redes_sociales ul a{
+        font-size: 40px;
+
+    }
     .contenedor-login h1{
         width: max-content;
     }

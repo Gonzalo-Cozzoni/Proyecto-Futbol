@@ -1,0 +1,30 @@
+
+.contenedor-registro{
+    z-index: 800;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
+
+.campo-obligatorio{
+    font-style: italic;
+    color: red;
+}
+
+
+.menu-registro{
+    background-color: #0cac49;
+    background-image: linear-gradient(45deg, #0cac49 0%, #fcff7d 100%);
+    height: 100%;
+    padding: 10px;
+    
+}
+
+.selecciones{
+    margin: 5px 0 5px 0;
+}
+
+.input-group{
+    margin: 5px
+}

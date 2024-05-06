@@ -10,6 +10,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3e248bbdf2.js" crossorigin="anonymous"></script>
     <script defer src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/estilo_registro.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Función para crear opciones de select
+            function createSelectOptions(select, start, end) {
+                for (let i = start; i <= end; i++) {
+                    const option = document.createElement('option');
+                    option.text = i;
+                    select.add(option);
+                }
+            }
+
+            // Obtener elementos de fecha de nacimiento
+            const birthDaySelect = document.getElementById('birthday-day');
+            const birthMonthSelect = document.getElementById('birthday-month');
+            const birthYearSelect = document.getElementById('birthday-year');
+
+            // Crear opciones para día y año
+            createSelectOptions(birthDaySelect, 1, 31);
+            createSelectOptions(birthYearSelect, 1900, new Date().getFullYear());
+
+            // Crear opciones para mes
+            const monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+                "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+            ];
+            for (let i = 0; i < 12; i++) {
+                const option = document.createElement('option');
+                option.text = monthNames[i];
+                option.value = i + 1;
+                birthMonthSelect.add(option);
+            }
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -36,30 +69,86 @@
             </ul>
         </nav>
     </header>
+    
     <main class="menu-registro">
-        
+
         <div class="contenedor-registro">
-            
+
             <h1 class="titulo-registro">Registro</h1>
+            <h6 class="campo-obligatorio">* Campos Obligatorios</h6>
+
             <form class="form" action="">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre">
-               
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido">
-                
-                <label for="dni">DNI</label>
-                <input type="text" name="dni" id="dni">
-               
-                <label for="email">Email</label>
-                <input type="email" name="" id="">
-                
-                <label for="contraseña">Contraseña</label>
-                <input type="password" name="contraseña" id="contraseña">
-               
+
+                <div class="input-group">
+                    <input type="text" id="nombre" class="input-padron" required placeholder="Nombre *"
+                        pattern="[A-Za-z ]+" title="Ingrese un nombre sin números ni caracteres especiales">
+                    <input type="text" id="apellido" class="input-padron" required placeholder="Apellido *"
+                        pattern="[A-Za-z ]+" title="Ingrese un apellido sin números ni caracteres especiales">
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="dni" class="input-padron" required placeholder="DNI *" pattern="\d{1,8}"
+                        title="Ingrese un DNI válido (solo números)">
+                </div>
+
+                <!-- Campo de Fecha de Nacimiento -->
+                <div class="input-group">
+                    <label for="birthday-day">Fecha de Nacimiento *</label>
+                    <select id="birthday-day" required>
+                        <option value="">Día</option>
+                    </select>
+                    <select id="birthday-month" required>
+                        <option value="">Mes</option>
+                    </select>
+                    <select id="birthday-year" required>
+                        <option value="">Año</option>
+                    </select>
+                </div>
+
+                <div class="selecciones">
+                    <legend>Sexo</legend>
+                    <label for="radio-masculino"><input type="radio" name="sexo" value="masculino"
+                            id="radio-masculino">Masculino</label>
+                    <label for="radio-femenino"><input type="radio" name="sexo" value="femenino"
+                            id="radio-femenino">Femenino</label>
+                    <label for="radio-nodefine"><input type="radio" name="sexo" value="nodefine" id="radio-nodefine"
+                            checked>No Define</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="prefijo" class="input-padron" required placeholder="Prefijo *"
+                        pattern="\d{3}" title="Ingrese un prefijo válido de 3 números">
+                    <input type="text" id="numero" class="input-padron" required placeholder="Número *"
+                        pattern="\d{1,8}" title="Ingrese un número válido (hasta 8 números)">
+                </div>
+
+                <div class="input-group">
+                    <input type="email" id="correoelectronico" class="input-padron" required placeholder="Email *" />
+                </div>
+
+                <div class="selecciones">
+                    <legend>¿En qué horario prefiere los turnos?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </div>
+
+
+
+                <div class="input-group">
+                    <input type="password" id="password" class="input-padron" required placeholder="Password *"
+                        pattern="(?=.*\d{3})(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Debe ingresar mínimo 8 caracteres que incluyan mínimo una letra mayúscula, una minúscula y tres números">
+                    <input type="password" id="repeat-password" class="input-padron" required
+                        placeholder="Repetir Password *" pattern="(?=.*\d{3})(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Repita la contraseña anterior">
+                </div>
+
                 <input class="boton-aceptar" type="submit" value="Aceptar">
-                
-            </form>       
+
+            </form>
         </div>
 
     </main>

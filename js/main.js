@@ -62,4 +62,3 @@ repeatPasswordInput.addEventListener('input', function(event) {
         repeatPasswordInput.setCustomValidity('');
     }
 });
-});

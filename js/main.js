@@ -33,7 +33,7 @@ function loguearse(){
   let usuario = document.getElementById("correoelectronico").value;
   let contraseña = document.getElementById("password").value;
     if (usuario == "grupo2@gmail.com" && contraseña == "Grupo222"){
-        window.location = "PROYECTO-FUTBOL-MAIN/index.html";
+        window.location.href = "./index.html";
     }
     else{
         alert("Usuario o contraseña incorrectos");

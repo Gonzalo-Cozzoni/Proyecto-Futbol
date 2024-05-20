@@ -20,12 +20,15 @@
                 <i class="fa-solid fa-bars"></i>
             </button> 
             <ul class="nav-menu ">
-                <li  class="nav-menu-item">
-                    <a class="nav-menu-link" href="#nosotros">Nosotros</a>
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link" href="index.html">Inicio</a>
                 </li>
-                <li  class="nav-menu-item">
-                    <a class="nav-menu-link" href="#nuestras-canchas">Nuestras canchas</a>
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link" href="index.html#ubicacion">Ubicación</a>
                 </li>
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link" href="index.html#nuestras-canchas">Nuestras canchas</a>
+                </li>                
                 <li  class="nav-menu-item">
                     <a class="nav-menu-link" href="registrate.html">Registrate</a>
 
@@ -44,18 +47,26 @@
             <h1>Iniciar Sesion</h1>
             <form class="form">
                 <label for="usuario">Email</label>
-                <input type="text" name="usuario" id="usuario">
-
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="" />
                 <label for="contraseña">Contraseña</label>
-                <input type="password" name="contraseña" id="contraseña">
+                <input type="password" id="password" class="input-padron" required placeholder=""
+                pattern="(?=.*\d{3})(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Debe ingresar mínimo 8 caracteres que incluyan mínimo una letra mayúscula, una minúscula y tres números">
 
-                <input class="boton-aceptar" type="submit" value="Ingresa">
+                <input class="boton-aceptar" type="submit" value="Ingresá" onclick="loguearse()">
             </form>
         </div>
     </main>
-    <footer>
 
-    </footer>
-    <script src="https://kit.fontawesome.com/3e248bbdf2.js" crossorigin="anonymous"></script>
+    <!-- Div donde se cargará el footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!-- Incluye el script que carga el footer -->
+    <script defer src="./js/loadFooter.js"></script>
+
 </body>
 </html>

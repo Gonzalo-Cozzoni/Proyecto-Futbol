@@ -28,15 +28,35 @@ function redireccionarAIndex() {
   }
 }
 
+
+let formulario = document.querySelector(".form")
+
+console.log(formulario);
+
+formulario.addEventListener('submit', (e)=>{
+  e.preventDefault();
+
+  if(!loguearse()){
+    alert("Ingresa bien los datos");
+    e.preventDefault();
+  }else
+  formulario.submit();
+  
+
+})
+
+
 function loguearse(){
   
-  let usuario = document.getElementById("correoelectronico").value;
-  let contraseña = document.getElementById("password").value;
-    if (usuario == "grupo2@gmail.com" && contraseña == "Grupo222"){
-        window.location.href = "./index.html";
+  let usuario = document.getElementById("correoelectronico");
+  let contraseña = document.getElementById("password");
+    if (usuario.value === "grupo2@gmail.com" && contraseña.value === "Grupo222"){
+        return true;
     }
     else{
         alert("Usuario o contraseña incorrectos");
+      return false;
+        
     }
 
 

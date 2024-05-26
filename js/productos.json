@@ -1,0 +1,283 @@
+
+        [
+          {
+            "id": 1,
+            "nombre": "Remera manga corta",
+            "descripcion": "Remera confeccionada 100% algodon con costura reforzada, ideal para entrenamientos al aire libre",
+            "imagen": "https://hgconfecciones.com.ar/wp-content/uploads/Remera-manga-corta-05.jpg",
+            "genero": "Masculino",
+            "color": "Negro",
+            "precio": 15000
+          },
+          {
+            "id": 2,
+            "nombre": "Remera manga corta",
+            "descripcion": "Remera confeccionada 100% algodon con costura reforzada, ideal para entrenamientos al aire libre",
+            "imagen": "https://hgconfecciones.com.ar/wp-content/uploads/Remera-manga-corta-03.jpg",
+            "genero": "Masculino",
+            "color": "Gris",
+            "precio": 15000
+          },
+          {
+            "id": 3,
+            "nombre": "Remera manga corta",
+            "descripcion": "Remera confeccionada 100% algodon con costura reforzada, ideal para entrenamientos al aire libre",
+            "imagen": "https://hgconfecciones.com.ar/wp-content/uploads/Remera-manga-corta-04.jpg",
+            "genero": "Masculino",
+            "color": "Blanca",
+            "precio": 15000
+          },
+          {
+            "id": 4,
+            "nombre": "Remera manga corta",
+            "descripcion": "Remera confeccionada 100% algodon con costura reforzada, ideal para entrenamientos al aire libre",
+            "imagen": "https://hgconfecciones.com.ar/wp-content/uploads/Remera-manga-corta-10.jpg",
+            "genero": "Masculino",
+            "color": "Verde",
+            "precio": 15000
+          },
+          {
+            "id": 5,
+            "nombre": "Remera manga corta",
+            "descripcion": "Remera confeccionada 100% algodon con costura reforzada, ideal para entrenamientos al aire libre",
+            "imagen": "https://hgconfecciones.com.ar/wp-content/uploads/Remera-manga-corta-06.jpg",
+            "genero": "Masculino",
+            "color": "Azul",
+            "precio": 15000
+          },
+          {
+            "id": 6,
+            "nombre": "Short deportivo",
+            "descripcion": "Short de acetato y algodon ultra livianos, super comodos para realizar actividades desportivas",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_715528-MLA71809366508_092023-O.webp",
+            "genero": "Masculino",
+            "color": "Negro",
+            "precio": 12000
+          },
+          {
+            "id": 7,
+            "nombre": "Short deportivo",
+            "descripcion": "Short de acetato y algodon ultra livianos, super comodos para realizar actividades desportivas",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_997593-MLA71809459096_092023-O.webp",
+            "genero": "Masculino",
+            "color": "Azul",
+            "precio": 12000
+          },
+          {
+            "id": 8,
+            "nombre": "Short deportivo",
+            "descripcion": "Short de acetato y algodon ultra livianos, super comodos para realizar actividades desportivas",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_745047-MLA47023404809_082021-O.webp",
+            "genero": "Masculino",
+            "color": "Rojo",
+            "precio": 12000
+          },
+          {
+            "id": 9,
+            "nombre": "Short deportivo",
+            "descripcion": "Short de acetato y algodon ultra livianos, super comodos para realizar actividades desportivas",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_907164-MLA43334690678_092020-O.webp",
+            "genero": "Masculino",
+            "color": "Verde",
+            "precio": 12000
+          },
+          {
+            "id": 9,
+            "nombre": "Short deportivo",
+            "descripcion": "Short de acetato y algodon ultra livianos, super comodos para realizar actividades desportivas",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_907164-MLA43334690678_092020-O.webp",
+            "genero": "Masculino",
+            "color": "Verde",
+            "precio": 12000
+          },
+          {
+            "id": 10,
+            "nombre": "Conjunto deportivo - Short y Remera",
+            "descripcion": "Conjunto deportivo de short y remera confeccionado con acetato de la mejor calidad, ideales para tus rutinas de entrenamiento",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_920695-CBT73787316165_012024-O.webp",
+            "genero": "Masculino",
+            "color": "Negro",
+            "precio": 25000
+          },
+          {
+            "id": 11,
+            "nombre": "Conjunto deportivo - Short y Remera",
+            "descripcion": "Conjunto deportivo de short y remera confeccionado con acetato de la mejor calidad, ideales para tus rutinas de entrenamiento",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_874265-CBT73787242739_012024-O.webp",
+            "genero": "Masculino",
+            "color": "Gris",
+            "precio": 25000
+          },
+          {
+            
+            "id": 12,
+            "nombre": "Conjunto deportivo - Short y Remera",
+            "descripcion": "Conjunto deportivo de short y remera confeccionado con acetato de la mejor calidad, ideales para tus rutinas de entrenamiento",
+            "imagen": "https://img.joomcdn.net/14a5690046759fcde62e289328883f67490ddfbd_original.jpeg",
+            "genero": "Masculino",
+            "color": "Azul",
+            "precio": 25000
+          },
+          {
+            "id": 13,
+            "nombre": "Conjunto deportivo combinado- Short y Remera",
+            "descripcion": "Conjunto deportivo de short y remera confeccionado con acetato de la mejor calidad, ideales para tus rutinas de entrenamiento",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_987567-CBT72150475606_102023-O.webp",
+            "genero": "Masculino",
+            "color": "Blaco y Negro",
+            "precio": 25000
+          },
+          {
+            "id": 14,
+            "nombre": "Conjunto deportivo combinado- Short y Remera",
+            "descripcion": "Conjunto deportivo de short y remera confeccionado con acetato de la mejor calidad, ideales para tus rutinas de entrenamiento",
+            "imagen": "https://m.media-amazon.com/images/I/41Kcfiy1UTL._AC_SY580_DpWeblab_.jpg",
+            "genero": "Masculino",
+            "color": "Rojo y Negro",
+            "precio": 25000
+          },
+          {
+            "id": 15,
+            "nombre": "Conjunto deportivo combinado- Short y Remera",
+            "descripcion": "Conjunto deportivo de short y remera confeccionado con acetato de la mejor calidad, ideales para tus rutinas de entrenamiento",
+            "imagen": "https://img.bestdealplus.com/ae04/kf/H2e26af1079c1454c996d52ecce017535B.jpg",
+            "genero": "Masculino",
+            "color": "Azul y Negro",
+            "precio": 25000
+          },
+          {
+            "id": 16,
+            "nombre": "Medias antideslizantes deportivas",
+            "descripcion": "Medias 100% de algodon, con antideslizante para un mejor agarre. Comodas y super livianas",
+            "imagen": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/7faf90e1-ed76-48ac-9fe6-e226066193e3.fbb3783c7142fcfa1684d00c1a8a4bc9.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+            "genero": "Masculino",
+            "color": "Blanca",
+            "precio": 6000
+          },
+          {
+            "id": 17,
+            "nombre": "Medias antideslizantes deportivas",
+            "descripcion": "Medias 100% de algodon, con antideslizante para un mejor agarre. Comodas y super livianas",
+            "imagen": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/f59e8215-52c2-48fa-b40b-bbb01e2c662a.c18016c70adb21dc32a340d93e3f6680.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+            "genero": "Masculino",
+            "color": "Negra",
+            "precio": 6000
+          },
+          {
+            "id": 18,
+            "nombre": "Medias antideslizantes deportivas",
+            "descripcion": "Medias 100% de algodon, con antideslizante para un mejor agarre. Comodas y super livianas",
+            "imagen": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/770d4982-1c5f-45a6-8ed2-73d33313e69e.0dfe4bf3798cd44fbbaad31d141439c6.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+            "genero": "Masculino",
+            "color": "Azul",
+            "precio": 6000
+          },
+          {
+            "id": 19,
+            "nombre": "Medias antideslizantes deportivas",
+            "descripcion": "Medias 100% de algodon, con antideslizante para un mejor agarre. Comodas y super livianas",
+            "imagen": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/3e35aa5d-3679-45cf-aaca-f2ff1fdb7c63.2d42781ca38185cdee812d05551eb53e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+            "genero": "Masculino",
+            "color": "Verde",
+            "precio": 6000
+          },
+          {
+            "id": 20,
+            "nombre": "Medias antideslizantes deportivas",
+            "descripcion": "Medias 100% de algodon, con antideslizante para un mejor agarre. Comodas y super livianas",
+            "imagen": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/2dbbb451-d5f9-46f6-b088-9550fbac3848.59e40d5cbd891ee5dd104e40c738c4f9.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+            "genero": "Masculino",
+            "color": "Amarillo",
+            "precio": 6000
+          },
+          {
+            "id": 21,
+            "nombre": "Calza corta",
+            "descripcion": "Calza corta 100% poliester, con elastico a la vista y con costura reforzada",
+            "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/3cb7d75bc2a65211451e92c5381048e9/c/a/calza-corta-procer-azul-690020000060002-1.jpg",
+            "genero": "Masculino",
+            "color": "Azul",
+            "precio": 12000
+          },
+          {
+            "id": 22,
+            "nombre": "Calza corta",
+            "descripcion": "Calza corta 100% poliester, con elastico a la vista y con costura reforzada",
+            "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/6/9/690020000060003-1.jpg",
+            "genero": "Masculino",
+            "color": "Blanca",
+            "precio": 12000
+          },
+          {
+            "id": 23,
+            "nombre": "Calza corta",
+            "descripcion": "Calza corta 100% poliester, con elastico a la vista y con costura reforzada",
+            "imagen": "https://thumbs.nosto.com/quick/rbxh5h46/8/234877_alt_71ca8156e84dbeee9c13b092eaba59f6e98fcb74079904dcb28a8f2252198733/97345593e48561f54959f3d915f23ad4d6b7b6e433bdd3827d437ba5e77e3e64/A",
+            "genero": "Masculino",
+            "color": "Negra",
+            "precio": 12000
+          },
+          {
+            "id": 25,
+            "nombre": "Pelota N° 5",
+            "descripcion": "Pelota de cuero sin costura",
+            "imagen": "https://f.fcdn.app/imgs/c72520/www.stadium.com.uy/std/d50f/original/catalogo/009.Z69320905/1920-1200/pelota-oceaunz-clb-amarillo-gris.jpg",
+            "genero": "Masculino",
+            "color": "Amarilla",
+            "precio": 18000
+          },
+          {
+            "id": 26,
+            "nombre": "Pelota N° 5",
+            "descripcion": "Pelota de cuero sin costura",
+            "imagen": "https://metasports.com.py/media/catalog/product/cache/9286ff1d9737d1c21559f7da6b69729b/adidas/equipment/HZ6933-1.jpg",
+            "genero": "Masculino",
+            "color": "Azul",
+            "precio": 18000
+          },
+          {
+            "id": 27,
+            "nombre": "Pelota N° 5",
+            "descripcion": "Pelota de cuero sin costura",
+            "imagen": "https://www.tienda.quonam.com.ar/media/catalog/product/cache/4f24db8df4bc61d14342add8d01704b4/2/4/24-HT9014-BLANCO_COMBINADO_1.jpg",
+            "genero": "Masculino",
+            "color": "Negra",
+            "precio": 18000
+          },
+          {
+            "id": 28,
+            "nombre": "Remera termina ",
+            "descripcion": "Remera termina manga larga, elaborada con poliester y algodon, y con costura reforzada",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_975256-MLA47857815188_102021-O.webp",
+            "genero": "Masculino",
+            "color": "Amarilla",
+            "precio": 20000
+          },
+          {
+            "id": 29,
+            "nombre": "Remera termina ",
+            "descripcion": "Remera termina manga larga, elaborada con poliester y algodon, y con costura reforzada",
+            "imagen": "https://acdn.mitiendanube.com/stores/001/219/670/products/2040058-remera-termica-drb-mangas-largas-nino-31-7196283309e3ebc1e216209118248558-1024-1024.jpg",
+            "genero": "Masculino",
+            "color": "Blanca",
+            "precio": 20000
+          },
+          {
+            "id": 30,
+            "nombre": "Remera termina ",
+            "descripcion": "Remera termina manga larga, elaborada con poliester y algodon, y con costura reforzada",
+            "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/2/7/270020000832ne0-1.jpg",
+            "genero": "Masculino",
+            "color": "Negra",
+            "precio": 20000
+          },
+          {
+            "id": 31,
+            "nombre": "Remera termina ",
+            "descripcion": "Remera termina manga larga, elaborada con poliester y algodon, y con costura reforzada",
+            "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/e/m/emera-termica-manga-largakids-270020000829ma0r-1.jpg",
+            "genero": "Masculino",
+            "color": "Azul",
+            "precio": 20000
+          }
+        ]

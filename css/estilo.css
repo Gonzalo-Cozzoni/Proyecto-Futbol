@@ -518,7 +518,75 @@ footer {
 .contenedor-login h1 {
     width: max-content;
 }
+.carContainer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.slider input{
+    visibility: hidden;
+    display: none;
+}
+.buttons{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 50px;
+    gap: 10px;
+}
+.buttons label{
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 1;
+    transition: 300ms ease-in-out;
+}
+.buttons label:hover{
+    scale: 1.2;
+    opacity: 1;
+}
 
- 
+.slider input:nth-child(1):checked ~ .buttons label:nth-child(1),
+.slider input:nth-child(2):checked ~ .buttons label:nth-child(2),
+.slider input:nth-child(3):checked ~ .buttons label:nth-child(3)
+{
+    opacity: 1;
+    scroll-margin: 1.2;
+    width: 40px;
+}
+.content{
+    position: relative;
+    width: 300vw;
+    display: flex;
+    transition: 400ms ease-in-out;
+}
+.firstSlide,.secondSlide,.thirdSlide{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.slider input:nth-child(1):checked ~ .content{
+    left: 0;
+}
+.slider input:nth-child(2):checked ~ .content{
+    left: -100vw;
+}
+.slider input:nth-child(3):checked ~ .content{
+    left: -200vw;
+}
+.content img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}

@@ -1,0 +1,3 @@
+Explicacion de nuestro Sitio WEB
+
+Nuestro sitio cuenta con un menú totalmente responsivo, donde se convierte en menú hamburguesa para dispositivos moviles. Una sección de banner con un título e imagen de fondo con un botón de registro. Debajo una sección de nuestras canchas donde nos redirecciona a un html donde podremos visualizar un carrusel de imágenes de nuestro complejo. Y por último una sección de ubicación con un Iframe para saber dónde encontrarnos. En el menu, tenemos los botones de registro que nos direcciona a un registro con validaciones. Y un botón de inicio de sesión para poder loguearse. Una vez logueado el sitio nos abrirá un html de merchandising donde se podrá comprar indumentaria deportiva. Y poder reservar un turno para jugar.
